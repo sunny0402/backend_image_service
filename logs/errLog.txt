@@ -1,0 +1,44 @@
+20220630	19:29:30	25a85033-e3ff-4d47-ad2e-5e9c5df2f62e	SyntaxError: Unexpected token " in JSON at position 0
+20220720	15:03:18	4c776468-aa48-4a8b-9184-3b2eb13a4203	Error: Not allowed by CORS
+20220720	15:04:45	4657ef63-a391-4cfb-be9e-333d8f12dcf1	TypeError: res.headers is not a function
+20220720	15:35:53	aeadf025-3e09-4b63-84b2-2285a398e8eb	TypeError: res.headers is not a function
+20220805	13:10:17	2d3bf990-155d-4f71-8296-3d1307682f46	Error: ENOENT: no such file or directory, stat '/Users/alexvolsky/Dropbox/my_javascript/my_blog/myBlog/client/build/index.html'
+20220805	13:14:32	9188cf28-9729-426b-849b-0c8a5ae7466e	Error: ENOENT: no such file or directory, stat '/Users/alexvolsky/Dropbox/my_javascript/my_blog/myBlog./client/public/index.html'
+20220824	12:10:38	df26f616-4674-4534-a9a3-d4318ad61dee	Error: Multipart: Boundary not found
+20220824	15:27:50	5b6ee4ec-2bab-4f6b-a386-179e2f231bd9	Error: ENOENT: no such file or directory, open '/myArticles/1661369270436-october-2019-update.md'
+20220920	19:57:36	43b8d983-3f01-44d9-9da1-0632b05eb9ff	Error: ENOENT: no such file or directory, stat '/Users/alexvolsky/Dropbox/my_javascript/react_mysql_aws/auth_picture_aws/backend./views/404.html'
+20220920	20:08:31	10a2e239-460b-4b76-9b30-a733bf5a9c38	MulterError: Unexpected field
+20220920	23:53:33	d2de903f-d1a7-4f3d-9c5d-2d47de22b3cf	Error: Only .png, .jpg and .jpeg format allowed!
+20220921	00:56:04	00a56dad-08eb-4162-86fe-b8636bb4c109	Error: Only .png, .jpg and .jpeg format allowed!
+20220921	01:37:32	74065da4-180f-4e8c-819b-7a5e2b6e5485	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	03:09:50	9369457a-a371-4208-8990-5e0860e8a2a4	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	03:42:21	2198c7be-f683-40f3-8bf0-8fe15d219cd3	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	03:53:50	c88f007b-5bd8-4c61-8dd3-06d35b594909	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	04:27:59	2d321fa5-fb9e-4022-aaad-6f1290eaffec	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	04:35:21	8ab239dc-72ec-49fd-b832-ea819ab62d79	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	04:39:50	c48229f5-2c75-4622-a5ce-9da8c4a6e6ba	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	04:39:55	ca205d4d-32aa-4677-b65b-1b379f8e71b8	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	04:40:14	0b9fcbc7-5862-4b50-90e4-c14fbb3fb627	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	04:40:38	45ec1ae9-a768-4de3-aed4-61e99a66d266	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	04:44:02	27d23bfd-daff-4714-9587-fd6529410a6a	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	04:53:25	185392f4-4851-4ea7-979d-2a8dc9f9a2eb	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:17:53	4856dfad-ee1a-4849-8a1f-80030969bf7a	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:18:02	cf6f2764-2ad2-48d3-a8db-d057f3d64ab2	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:20:59	50287e87-cde5-4b57-b174-478159c1719d	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:25:46	76105946-d007-4af9-908b-9489bf621c7b	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:28:13	b684ff4d-3091-40c9-bffe-8bf4db1ea46d	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:28:31	b83fbb40-cf59-4e9e-8166-a5dc0193ff69	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:28:36	274335b3-f472-4390-9dc1-77006120ebc6	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:28:41	6c4fe0a8-de20-4172-9b7c-609240f75ffa	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:30:17	904026cd-439d-4aef-98c3-2a5d710a78d9	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:33:05	771564a9-23be-441a-80de-47a683540eff	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:34:23	9cb44602-0dcb-4eb2-bfdc-17695a720620	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:36:34	28b894ec-1a60-48ae-97ef-f2eb0dfda3a8	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:38:00	516a8a53-b83f-488f-bead-3b93463e867c	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:40:05	91bfe492-0efd-4797-a4a7-9f99bc66001a	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:41:02	b57e9175-600f-47e4-93f4-5130a82f1eba	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:42:06	7f812eec-061a-4724-bd90-76fff60f5650	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:47:49	c4aa9860-88fd-44d5-a2da-e264492af36e	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:48:42	f46778eb-7459-4533-b5f4-b525dec63baa	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:49:00	8ba12cb3-d32a-4959-ac8a-87103fe23c47	Error: Only .png, .jpg and .jpeg format allowed!
+20220922	05:49:30	65622448-30e3-4b12-a699-c8f7aca74647	Error: Only .png, .jpg and .jpeg format allowed!
