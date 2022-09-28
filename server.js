@@ -22,9 +22,9 @@ const roleController = require("./controllers/rolesController");
 let my_db = require("./database");
 const { User, Role } = my_db.models;
 
-// const port = process.env.PORT || 5000;
-const port =
-  process.env.NODE_ENV === "production" ? process.env.PORT || 80 : 5000;
+const port = process.env.PORT || 5000;
+// const port =
+//   process.env.NODE_ENV === "production" ? process.env.PORT || 80 : 5000;
 
 async function database_start() {
   try {
@@ -49,21 +49,22 @@ async function database_start() {
     // });
 
     //create Alex2 with roles of User and Admin
-    const hashedPwdAlex2 = await bcrypt.hash("12345", 10);
-    const alex2 = await User.create({
-      userEmail: "alex2@gmail.com",
-      password: hashedPwdAlex2,
-      imageTitle: "178722cf-6368-4e12-9edd-81904b7259c4.jpg",
-      s3URL:
-        "https://user-images-s3-storage.s3.us-east-2.amazonaws.com/178722cf-6368-4e12-9edd-81904b7259c4.jpg",
-    });
+    // const hashedPwdAlex2 = await bcrypt.hash("12345", 10);
+    // const alex2 = await User.create({
+    //   userEmail: "alex2@gmail.com",
+    //   password: hashedPwdAlex2,
+    //   imageTitle: "178722cf-6368-4e12-9edd-81904b7259c4.jpg",
+    //   s3URL:
+    //     "https://user-images-s3-storage.s3.us-east-2.amazonaws.com/178722cf-6368-4e12-9edd-81904b7259c4.jpg",
+    // });
 
-    const alex2Id = alex2.dataValues.id;
-    const userRoleAlex1 = await roleController.addUser(2001, alex2Id);
-    const adminRoleAlex1 = await roleController.addUser(5150, alex2Id);
+    // const alex2Id = alex2.dataValues.id;
+    // const userRoleAlex1 = await roleController.addUser(2001, alex2Id);
+    // const adminRoleAlex1 = await roleController.addUser(5150, alex2Id);
 
-    console.log("Test user alex2 created: ", alex2.dataValues);
-    console.log("Database startup complete!");
+    // console.log("Test user alex2 created: ", alex2.dataValues);
+
+    // console.log("Database startup complete!");
   } catch (err) {
     if (err.name === "SequelizeValidationError") {
       const errors = err.errors.map((an_err) => an_err.message);
