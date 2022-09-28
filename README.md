@@ -2,7 +2,43 @@
 
 Backend has the following routes for authentication:
 
-/register, /auth, /refresh, /logout
+/api/register, /api/auth, /api/refresh, /api/logout
 
 And a authorized route for registered users:
-/users/:id
+/api/users/:id
+
+# Example Register Request
+
+```
+
+const axios = require("axios");
+const FormData = require("form-data");
+const fs = require("fs");
+let data = new FormData();
+data.append(
+  "user-image",
+  fs.createReadStream("/Users/aUSER/someFolder/imageTitle.png")
+);
+data.append("email", "alex.test12@gmail.com");
+data.append("pwd", "awesomePASS1!");
+
+let config = {
+  method: "post",
+  url: "http://ec2-44-203-186-236.compute-1.amazonaws.com:5000/api/register",
+  headers: {},
+  data: data,
+};
+
+axios(config)
+  .then((response) => {
+    console.log(JSON.stringify(response.data)); //{"success":"New user: id:5 email:alex.test12@gmail.com. Created!"}
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+
+```
+
+## TODO
+
+Restrict a registered user from seeing another users image.
