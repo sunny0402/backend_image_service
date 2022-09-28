@@ -1,6 +1,5 @@
 const allowedOrigins = [
-  "http://127.0.0.1:5500",
-  "http://localhost:3500",
+  "http://ec2-44-201-119-212.compute-1.amazonaws.com",
   "http://localhost:3000",
   "http://localhost:3306",
   "http://localhost:5000",
