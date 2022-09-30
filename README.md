@@ -1,10 +1,10 @@
 ## About
 
-Backend has the following routes for authentication:
+The backend api of the upload image app has the following routes for authentication:
 
 /api/register, /api/auth, /api/refresh, /api/logout
 
-And a authorized route for registered users:
+And an authorized route for registered users:
 /api/users/:id
 
 # Example Register Request
@@ -38,7 +38,3 @@ axios(config)
   });
 
 ```
-
-## TODO
-
-Restrict a registered user from seeing another users image.
